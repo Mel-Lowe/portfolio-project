@@ -6,7 +6,7 @@ body {
 
 .hero {
   background-color: #f9f4f2;
-  padding: 180px 300px;
+  padding: 200px 300px;
 }
 
 .hero h1 {
@@ -29,10 +29,24 @@ body {
   color: white;
   font-size: 18px;
   line-height: 27px;
-  padding: 12px 20px;
-  text-align: center;
+  padding: 15px 30px;
 }
 .btn-hero:hover {
+  background: #4923f3;
+  opacity: 0.8;
+  color: white;
+}
+
+.btn-outlined {
+  background: white;
+  border: 1px solid #4923f3;
+  border-radius: 4px;
+  color: #4923f3;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.btn-outlined:hover {
   background: #4923f3;
   opacity: 0.8;
   color: white;
