@@ -32,6 +32,11 @@ body {
   padding: 12px 20px;
   text-align: center;
 }
+.btn-hero:hover {
+  background: #4923f3;
+  opacity: 0.8;
+  color: white;
+}
 
 @media (max-width: 900px) {
   .hero {
