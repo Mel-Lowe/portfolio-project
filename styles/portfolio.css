@@ -21,3 +21,11 @@ body {
   color: black;
   font-weight: normal;
 }
+.btn-hero {
+  background: #4923f3;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+}
