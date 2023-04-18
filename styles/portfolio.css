@@ -1,0 +1,10 @@
+/* font-family: 'Jost', sans-serif;
+font-family: 'Playfair Display', serif; */
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Jost", sans-serif;
+}
