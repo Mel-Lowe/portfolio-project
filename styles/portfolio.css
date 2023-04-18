@@ -1,10 +1,23 @@
-/* font-family: 'Jost', sans-serif;
+/* font-family: 'Poppins', sans-serif;
 font-family: 'Playfair Display', serif; */
-h1 {
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-p {
-  font-family: "Jost", sans-serif;
+.hero {
+  background-color: #f9f4f2;
+}
+
+.hero h1 {
+  font-family: "Playfair Display", serif;
+  color: black;
+  font-size: 32px;
+
+  font-weight: normal;
+}
+
+.hero h2 {
+  font-size: 32px;
+  color: black;
+  font-weight: normal;
 }
