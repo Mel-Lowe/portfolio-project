@@ -3,7 +3,11 @@ font-family: 'Playfair Display', serif; */
 body {
   font-family: "Poppins", sans-serif;
 }
-
+p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: normal;
+}
 .hero {
   background-color: #f9f4f2;
   padding: 200px 300px;
@@ -52,7 +56,21 @@ body {
   color: white;
 }
 
-@media (max-width: 900px) {
+img {
+  border-radius: 5px;
+  box-shadow: 0 1px 5px #00000008, 0 5px 30px #0000001a;
+}
+
+.project-description {
+  padding: 60px 60px;
+}
+
+.project-description h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+@media (max-width: 960px) {
   .hero {
     padding: 60px 20px;
   }
