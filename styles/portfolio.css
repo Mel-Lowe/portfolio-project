@@ -3,6 +3,13 @@ font-family: 'Playfair Display', serif; */
 body {
   font-family: "Poppins", sans-serif;
 }
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  color: black;
+  font-weight: normal;
+}
+
 p {
   font-size: 16px;
   line-height: 30px;
@@ -15,18 +22,11 @@ p {
   padding: 200px 300px;
 }
 
-.hero h1 {
-  font-family: "Playfair Display", serif;
-  font-size: 32px;
-  color: black;
-  font-weight: normal;
-}
-
 .hero h2 {
+  margin-bottom: 60px;
   font-size: 32px;
   color: black;
   font-weight: normal;
-  margin-bottom: 60px;
 }
 .btn-hero {
   background: #4923f3;
@@ -78,6 +78,8 @@ img {
   font-weight: 700;
 }
 
+/*About Page*/
+
 @media (max-width: 960px) {
   .hero {
     padding: 60px 20px;
@@ -97,3 +99,21 @@ img {
     padding: 10px 20px;
   }
 }
+
+/*
+FOR IMG OVERLAY
+
+.ovl {
+  opacity: 0;
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.ovl:hover {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+*/
