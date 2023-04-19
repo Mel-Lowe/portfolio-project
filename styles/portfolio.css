@@ -75,4 +75,18 @@ img {
   .hero {
     padding: 60px 20px;
   }
+  .hero h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .hero h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .btn-hero {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
 }
