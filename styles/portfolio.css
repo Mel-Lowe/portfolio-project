@@ -78,8 +78,29 @@ img {
   font-weight: 700;
 }
 
-/*About Page*/
+/* About Page */
+.about-section {
+  padding: 160px 160px;
+}
 
+.about-section-cont {
+  margin: 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  margin: 20px 0 20px 0;
+}
+.about-section h2 {
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  font-size: 20px;
+}
+
+/* Media Queries */
 @media (max-width: 960px) {
   .hero {
     padding: 60px 20px;
