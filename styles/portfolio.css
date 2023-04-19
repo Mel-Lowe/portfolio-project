@@ -80,7 +80,7 @@ img {
 
 /* About Page */
 .about-section {
-  padding: 160px 160px;
+  padding: 160px 20px;
 }
 
 .about-section-cont {
@@ -118,6 +118,11 @@ img {
   .btn-hero {
     font-size: 14px;
     padding: 10px 20px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 40px 20px;
   }
 }
 
