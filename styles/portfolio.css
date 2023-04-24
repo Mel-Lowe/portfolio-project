@@ -91,7 +91,7 @@ p {
 
 /* Main page content */
 .featured-project-grid {
-  padding: 0 80px 0 80px;
+  padding: 40px 80px 80px 80px;
 }
 
 .page-content {
@@ -112,6 +112,21 @@ p {
 .page-content p {
   font-size: 20px;
 }
+/*Work Page*/
+
+.work-heading h1 {
+  font-size: 30px;
+}
+/*Contact Page*/
+.contact-links a {
+  text-decoration: none;
+  color: #585c5e;
+}
+
+.contact-links a:hover {
+  text-decoration: none;
+  color: #4923f3;
+}
 
 /*Footer*/
 
@@ -127,8 +142,15 @@ footer .social-links a {
 
 footer .footer-box {
   background: #f9f4f2;
-  padding: 20px 10px;
+  padding: 20px 0;
   border-radius: 10px;
+}
+
+footer .footer-box h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
 }
 
 footer .footer-box p {
