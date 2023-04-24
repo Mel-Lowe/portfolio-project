@@ -16,6 +16,12 @@ h3 {
   color: black;
 }
 
+h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+}
+
 p {
   font-size: 16px;
   line-height: 30px;
@@ -117,6 +123,16 @@ footer .social-links a {
   border-radius: 10px;
   margin: 0 20px;
   padding: 10px 16px;
+}
+
+footer .footer-box {
+  background: #f9f4f2;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+
+footer .footer-box p {
+  margin: 0;
 }
 
 /* Media Queries */
