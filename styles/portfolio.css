@@ -35,10 +35,6 @@ p {
   color: #4923f3 !important;
 }
 
-.grid-img {
-  border-radius: 5px;
-  box-shadow: 0 1px 5px #00000008, 0 5px 30px #0000001a;
-}
 .btn-fill {
   background: #4923f3;
   border-radius: 4px;
@@ -94,6 +90,13 @@ p {
   padding: 40px 80px 80px 80px;
 }
 
+.featured-project-grid img {
+  background-color: #f9f4f2;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px #00000008, 0 5px 30px #0000001a;
+  padding: 60px;
+}
+
 .page-content {
   padding: 140px 20px;
 }
@@ -112,10 +115,12 @@ p {
 .page-content p {
   font-size: 20px;
 }
+
 /*Work Page*/
 
 .work-heading h1 {
-  font-size: 30px;
+  font-size: 60px;
+  padding: 150px 150px 100px 150px;
 }
 /*Contact Page*/
 .contact-links a {
@@ -163,7 +168,7 @@ footer .footer-box p {
     padding: 120px 20px 40px 20px;
   }
   .hero h1 {
-    font-size: 20px;
+    font-size: 31px;
     text-align: center;
   }
   .hero h2 {
@@ -179,7 +184,16 @@ footer .footer-box p {
 
   .page-content {
     text-align: center;
-    padding: 40px 20px;
+    padding: 80px 20px;
+  }
+
+  .page-content h1 {
+    font-size: 50px;
+  }
+
+  .work-heading h1 {
+    padding: 100px 20px 25px 20px;
+    font-size: 30px;
   }
 }
 
