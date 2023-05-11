@@ -116,6 +116,10 @@ p {
   font-size: 20px;
 }
 
+.about-headshot {
+  border-radius: 10px;
+}
+
 /*Work Page*/
 
 .work-heading h1 {
