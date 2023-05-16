@@ -90,11 +90,11 @@ p {
   padding: 40px 80px 80px 80px;
 }
 
-.featured-project-grid img {
+.img-square {
   background-color: #f9f4f2;
   border-radius: 5px;
   box-shadow: 0 1px 5px #00000008, 0 5px 30px #0000001a;
-  padding: 60px;
+  padding: 40px;
 }
 
 .page-content {
